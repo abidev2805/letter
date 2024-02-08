@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: pink;
+}
+
+#letter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fffdd0;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}
+
+.postal-stamp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  display: inline;
+}
+
+.heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.to-address {
+  margin: 20px;
+}
+
+.address {
+  margin-left: 15px;
+}
+
+.content {
+  background-color: #fffdd0;
+}
+
+.w3-theme-white{
+    background-color: #fffdd0 !important;
+}
+.textalign{
+  text-align: center;
+}
